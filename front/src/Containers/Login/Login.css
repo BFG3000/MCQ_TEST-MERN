@@ -1,0 +1,85 @@
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.form {
+  position: relative;
+  width: 350px;
+  padding: 40px 40px 60px;
+  background: #42455a;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+.form h2 {
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.input {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.inputbox {
+  margin-top: 1rem;
+}
+
+.inputbox label {
+  display: block;
+  color: #beb8b8;
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+.loginInput{
+  
+  width: 100%;
+  height: 50px;
+ 
+  background: #676b83;
+  border: 0;
+  outline: none;
+  border-radius: 40px;
+  padding: 5px 15px;
+  
+  font-size: 18px;
+  color: #03a9f4 !important;
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.05),
+    inset -2px -2px 6px rgba(255, 255, 255, 0.05);
+}
+
+.login {
+  cursor: pointer;
+  margin-top: 25px !important;
+}
+
+.pass {
+  letter-spacing: 8px;
+  font-weight: bold;
+  margin-top: -7px;
+  padding-bottom: 10px;
+  padding-left: 22px;
+}
+
+.form p {
+  margin-top: 30px;
+  color: #999999;
+}
+
+.form a {
+  color: #ff0047;
+  text-decoration: none;
+}
+::placeholder { 
+  color: #d3d3d3;
+  opacity: 1; 
+}

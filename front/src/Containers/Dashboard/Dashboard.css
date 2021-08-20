@@ -1,0 +1,7 @@
+.admin_content {
+  position: absolute;
+  width: calc(100% - 78px);
+  left: 78px;
+  transition: all 0.5s ease;
+  height: 100%;
+}

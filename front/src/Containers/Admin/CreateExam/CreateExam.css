@@ -1,0 +1,23 @@
+.create-exam-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.5rem;
+  margin: 3rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.questions-create {
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: rgb(26, 167, 26);
+  display: flex;
+  align-items: center;
+}
+.questions-create i {
+  font-size: 1.4rem;
+  padding-left: 5px;
+  padding-top: 1px;
+}

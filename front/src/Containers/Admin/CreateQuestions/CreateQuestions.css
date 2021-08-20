@@ -1,0 +1,12 @@
+.question-answers {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(190, 190, 190);
+  margin: 1rem;
+  width: 420px;
+}
+
+.question-answers .qans1 {
+  background-color: #eee;
+  padding: 1rem;
+}

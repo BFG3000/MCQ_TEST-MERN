@@ -1,0 +1,27 @@
+.result-row{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+    width: 93%;
+    padding: 0.8rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.exam-finished{
+    background-color: rgb(22, 175, 22);
+    margin-right: 4rem;
+    color: white;
+    padding: 0 0.5rem;
+}
+
+.result-perc{
+    margin: 0px 5px;
+    font-weight: 500;
+    padding: 0.2rem 0.5rem;
+}
+.result-score{
+    margin: 0px 5px;
+    font-weight: 500;
+    padding: 0.2rem 0.5rem;
+}

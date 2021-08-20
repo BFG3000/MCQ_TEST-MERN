@@ -1,0 +1,44 @@
+.userInfo {
+  margin-top: 8rem;
+}
+.card1 {
+  height: 545px;
+  width: 60%;
+  border: none;
+  border-radius: 8px;
+  
+}
+
+.nextstep {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.input-field span {
+  font-size: 1rem;
+  color: #9c9c9c;
+  margin-left: 10px;
+}
+
+.input-field .form-control {
+  font-size: 13px;
+  color: #767473;
+  font-weight: 500;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #9b9b9b;
+  box-shadow: none;
+}
+
+.btn1 {
+  height: 35px;
+  width: 100%;
+  margin-top: 2.5rem;
+  background-color: #000;
+  font-weight: 500;
+  color: #cdcdc4;
+  border: none;
+  font-size: 15px;
+}

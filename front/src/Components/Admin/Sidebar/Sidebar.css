@@ -1,0 +1,233 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 78px;
+  background-color: #2c2b38;
+  padding: 6px 14px;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+.sidebar.active {
+  width: 240px;
+}
+
+.sidebar .logo_content .logo {
+  color: #fff;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+}
+.sidebar.active .logo_content .logo {
+  opacity: 1;
+  pointer-events: none;
+}
+
+.logo_content .logo i {
+  font-size: 1.8rem;
+  margin-right: 0.5rem;
+}
+
+.logo_content .logo .logo_name {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.sidebar #btn {
+  cursor: pointer;
+  position: absolute;
+  color: #fff;
+  left: 50%;
+  top: 7px;
+  font-size: 1.8rem;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  transform: translateX(-50%);
+}
+.sidebar.active #btn {
+  left: 90%;
+}
+
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 1.25rem;
+}
+.searchop {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  list-style: none;
+}
+
+.sidebar ul li {
+  position: relative;
+
+  width: 100%;
+  list-style: none;
+}
+
+.sidebar ul li button,.sidebar ul li a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: #fff;
+  transition: all 0.4s ease;
+  border-radius: 12px;
+  white-space: nowrap;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.sidebar ul li input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  background: #1d1b31;
+  padding-left: 50px;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.sidebar ul li .bx-search {
+  position: absolute;
+  z-index: 99;
+  color: #fff;
+  height: 50px;
+  font-size: 1.5rem;
+  transition: all 0.5s ease;
+}
+.sidebar ul li .bx-search:hover {
+  background: #fff;
+  color: #1d1b31;
+}
+
+.sidebar ul li button:hover,.sidebar ul li a:hover  {
+  background: #fff;
+  color: #2c2b38;
+}
+
+.sidebar ul li i {
+  height: 50px;
+  min-width: 50px;
+  border-radius: 12px;
+  line-height: 50px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.sidebar .links_name {
+  opacity: 0;
+  pointer-events: none;
+}
+.sidebar.active .links_name {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.sidebar .profile_content {
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.sidebar .profile_content .profile {
+  position: relative;
+  padding: 10px 6px;
+  height: 60px;
+  background: none;
+  transition: all 0.4s ease;
+}
+.sidebar.active .profile_content .profile {
+  background: #1d1b31;
+}
+.profile_content .profile .profile_details {
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.sidebar.active .profile .profile_details {
+  opacity: 1;
+  pointer-events: auto;
+}
+.profile_content .profile .profile_details img {
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.profile_content .profile .profile_details .name_job {
+  margin-left: 10px;
+}
+.profile_content .profile .profile_details .name {
+  font-size: 15px;
+  font-weight: 400;
+}
+.profile_content .profile .profile_details .job {
+  font-size: 12px;
+}
+.profile #log_out {
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+  transform: translateX(-50%);
+  min-width: 50px;
+  line-height: 50px;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.4s ease;
+  background: #1d1b31;
+  cursor: pointer;
+}
+.sidebar.active .profile #log_out {
+  left: 88%;
+  background: none;
+}
+
+.sidebar.active ~ .admin_content {
+  width: calc(100% - 240px);
+  left: 240px;
+}
+
+.submenu.active {
+  display: none;
+  background: #444359;
+  font-size: 14px;
+}
+
+.submenu {
+  margin-top: 0 !important;
+}
+.submenu li a {
+  display: block;
+  text-decoration: none;
+  color: #d9d9d9;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  border-radius: 12px;
+}
+.submenu li {
+  border-bottom: 1px solid #4b4a5e;
+}
+.sidebar ul li .submenu li a:hover {
+  background: #4b4a5e;
+  color: #fff;
+}

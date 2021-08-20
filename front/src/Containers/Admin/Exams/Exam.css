@@ -1,0 +1,60 @@
+.exam-row{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+    width: 93%;
+    padding: 0.8rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.exam-active{
+    background-color: rgb(22, 175, 22);
+    margin-right: 4rem;
+    color: white;
+    padding: 0 0.5rem;
+}
+
+.exam-name{
+   text-decoration: underline;
+   font-weight: bold;
+}
+
+.exam-remove{
+    margin: 0px 5px;
+    border:none;
+    outline: none;
+    color: white;
+    background-color: red;
+    padding: 0.2rem 0.5rem;
+}
+.exam-edit{
+    margin: 0px 5px;
+    border:none;
+    outline: none;
+    color: white;
+    background-color: #1b1b1b;
+    padding: 0.2rem 0.5rem;
+}
+
+.exam-create{
+    padding: 1rem;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    color: white;
+    background-color: rgb(26, 167, 26);
+    display: flex;
+  
+}
+.exam-create i{
+   font-size: 1.5rem;
+   font-weight: bold;
+   align-items: center;
+   padding-right: 5px;
+   padding-top: 0px;
+}
+
+.exam-create-header{
+    display: flex;
+    justify-content: space-between;
+}
